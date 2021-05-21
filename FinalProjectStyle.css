@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+/* Framing Styles */
+
+body {
+    /* color */
+    color: white; 
+    background-color: black;
+}
+
+a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------- */
+/* Front Workaround -- Need to use fonts on the page to use on Canvas */
+
+#fontFix {
+    visibility: hidden;	   /* hide this section */
+}
+
+.font-Gugi {
+    font-family: 'Gugi', cursive;
+}
+
+
+/* -------------------------------------------------------------- */
+/* Canvas Styles */
+
+#myCanvas {
+    border: 1px solid rgba(255,255,255,0.4);
+    margin-top:  40px;
+
+    /* add a shadow */	
+    -moz-box-shadow: 10px 10px 25px rgba(255,255,255,0.4);  	
+    -webkit-box-shadow: 10px 10px 25px rgba(255,255,255,0.4);  	
+    box-shadow: 10px 10px 25px rgba(255,255,255,0.4); 
+    
+}
+
+/* -------------------------------------------------------------- */
+/* Alignment Rules */
+
+.center-text {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
